@@ -3,14 +3,14 @@
 	<head> <!-- 페이지의 기본적인 정보 -->
 	<meta charset="UTF-8">
 	<title>페이지</title>
-	
+
 	<script type = "text/javascript" src ="sumValue.js"></script>
 	<script type="text/javascript" src = "whatTimeIsIt.js"></script>
-	
+
 	<!-- 인터넷 상에서 가져올 수 있음. -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	</head>
-	
+
 	<body> <!-- 페이지에 명시되는 정보 -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	  <div class="container"> <!-- 네비게이션은 가만히 놔두어지고, 내용을 담당하는 부분만 container만 여백이 생긴다. container-fluid의 차이 강의자료 21pg. -->
@@ -27,7 +27,7 @@
 	          <a class="nav-link" href="./blog_list.html">Blog</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="./about_me.html">About</a>
+	          <a class="nav-link" href="./aboutme.html">About</a>
 	        </li>
 	        <li class="nav-item dropdown">
 	          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,35 +44,35 @@
 	  </div>
 	</nav>
 
-	
+
 	<div class = "container">	<!-- bootstrap에서 제공하는 container div는 콘텐츠 분할 요소 특정한 그룹을 정하는 통형 컨테이너 -->
 		<div class = "row">
-		
-		
+
+
 			<div class = "col-9">
 				<h1>첫 번째 크기 헤드라인</h1> <!-- 헤드라인의 정보를 담는 코드고, 숫자에 따라서 크기가 달라진다. -->
 				<h2>두 번째 크기 헤드라인</h2>
 				<h3>세 번째 크기 헤드라인</h3>
 				<h4>네 번째 크기 헤드라인</h4>
 				<h5>다섯 번째 크기 헤드라인</h5>
-				
+
 			    <button onClick = "whatTimeIsIt()">현재시간</button><hr/>
-				
+
 				<input id ="v1" onkeyup = "sumValue()"/><br/> <!-- input 태그 -->
 				<input id = "v2" onkeyup = "sumValue()"/><br/>
 				<span id = "v3">0</span>
-				
-			
+
+
 				<p>문단은 p로 쓰세요.</p> <!-- p는 문단을 나타낸다. paragraph -->
 				<a href = "http://www.google.com">GO TO GOOGLE</a>
 				<hr/> <!-- 수평선을 나타냄. -->
-			</div>	
-			
-			<div class = "col-3">			
+			</div>
+
+			<div class = "col-3">
 				<image src = "./image/eunseo.jpg" class = "image-fluid w-100"> <!-- 이미지 불러옴. 경로를 연결시켜줘야함.-->
 			</div>
 		</div>
-		
+
 	<div class="container">
 	  <div class="row">
 	  <h2>Portfolio</h2>
@@ -90,8 +90,8 @@
 	    </div>
 	  </div>
 	</div>
-		
-	</div>	
+
+	</div>
 		<!-- cdn 방법으로 가져옴. -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 	</body>
